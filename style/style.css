@@ -26,11 +26,13 @@ ul{
 .container {
     width: 1200px;
     margin: 0 auto;
+    border-color: #FFFFFF;
+    display: flex;
 
 }
 
-.container-center{
-    width: 1200px;
+.wrapper__center{
+    width: 100%;
     margin: 0 auto;
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
 
@@ -100,13 +102,14 @@ ul{
 
 .header__button {
     display: flex;
+    margin-left: 86px;
 }
 
 .btn {
     color: white;
     background-color: #1890FF;
     border-radius: 2px;
-    padding: 8px 36px;
+    padding: 8px 20px 8px 15px;
     font-family: 'Roboto', serif;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.0015);
     border: transparent;
@@ -220,21 +223,18 @@ ul{
 .card__bottom{
     display: flex;
     align-items: baseline;
-    position: absolute;
+
 }
 
 .shop__button{
-    padding-left: 10px;
     margin-right: 40px;
     cursor: pointer;
 
 }
 
 .shop-icon{
-    position: relative;
-    left: 78px;
-    top: 4px;
-    color: white;
+
+
 }
 
 .card__price{
@@ -247,6 +247,8 @@ ul{
 .footer{
     display: flex;
    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 43px;
 }
 
 .logo-footer{
